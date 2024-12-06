@@ -1,0 +1,33 @@
+.testimonios {
+  padding: 4rem 0;
+  background: #f8f8f8;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.testimonioContainer {
+  max-width: 600px;
+  margin: 0 auto;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonio {
+  text-align: center;
+}
+
+.texto {
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.nombre {
+  font-weight: bold;
+}
+
