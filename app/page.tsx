@@ -31,7 +31,7 @@ export default function Home() {
         <section id="educacion">
           <Educacion />
         </section>
-        <section id="testimonios">
+        <section id="testimonios y contacto">
           <Testimonios />
         </section>
         <section id="contacto">

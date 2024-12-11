@@ -9,7 +9,7 @@ export default function Header() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['inicio', 'proyectos', 'habilidades', 'educacion', 'testimonios', 'contacto']
+      const sections = ['inicio', 'proyectos', 'habilidades', 'educacion', 'testimonios y contacto']
       const scrollPosition = window.scrollY
 
       for (const section of sections) {
@@ -36,7 +36,7 @@ export default function Header() {
     <header className={styles.header}>
       <nav>
         <ul className={styles.navList}>
-          {['Inicio', 'Proyectos', 'Habilidades', 'Educacion', 'Testimonios', 'Contacto'].map((item) => (
+          {['Inicio', 'Proyectos', 'Habilidades', 'Educacion', 'Testimonios y Contacto'].map((item) => (
             <li key={item}>
               <button
                 onClick={() => scrollToSection(item.toLowerCase())}
