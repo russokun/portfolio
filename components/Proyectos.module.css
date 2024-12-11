@@ -1,7 +1,8 @@
 .proyectos {
   padding: 6rem 0 4rem;
-  max-width: 1200px;
+  width: 100vw;
   margin: 0 auto;
+  background-color: #D9D8DE;
 }
 
 .title {
@@ -24,6 +25,7 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   perspective: 1000px;
+  min-height: 150px;
 }
 
 .imagen {

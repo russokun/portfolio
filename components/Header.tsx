@@ -6,6 +6,7 @@ import styles from './Header.module.css'
 
 export default function Header() {
   const [activeSection, setActiveSection] = useState('inicio')
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -29,13 +30,17 @@ export default function Header() {
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' })
       setActiveSection(sectionId)
+      setIsMenuOpen(false) // Cerrar el menú al seleccionar una sección
     }
   }
 
   return (
     <header className={styles.header}>
       <nav>
-        <ul className={styles.navList}>
+        <button className={styles.menuButton} onClick={() => setIsMenuOpen(!isMenuOpen)}>
+          ☰
+        </button>
+        <ul className={`${styles.navList} ${isMenuOpen ? styles.open : ''}`}>
           {['Inicio', 'Proyectos', 'Habilidades', 'Educacion', 'Testimonios y Contacto'].map((item) => (
             <li key={item}>
               <button

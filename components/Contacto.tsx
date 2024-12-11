@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import { motion } from 'framer-motion'
-import { Send, Github, Linkedin, Twitter, Instagram } from 'lucide-react'
+import { Send, Github, Linkedin, Facebook, Instagram } from 'lucide-react'
 import styles from './Contacto.module.css'
 
 export default function Contacto() {
@@ -48,7 +48,7 @@ export default function Contacto() {
           <Linkedin size={24} />
         </motion.a>
         <motion.a href="#" whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }}>
-          <Twitter size={24} />
+          <Facebook size={24} />
         </motion.a>
         <motion.a href="#" whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }}>
           <Instagram size={24} />

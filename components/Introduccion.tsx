@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import styles from './Introduccion.module.css'
 
-const roles = ['Desarrollador', 'Estudiante']
+const roles = ['Desarrollador', 'Estudiante', 'Emprendedor']
 
 export default function Introduccion() {
   const [roleIndex, setRoleIndex] = useState(0)
@@ -49,9 +49,9 @@ export default function Introduccion() {
         transition={{ duration: 0.5 }}
         className={styles.title}
       >
-        Hola, soy{' '}
+        HolaMundo, soy{' '}
         <span className={styles.dynamicText}>
-          Agustín
+          Agustín!
           <span className={styles.cursor}>|</span>
         </span>
       </motion.h1>

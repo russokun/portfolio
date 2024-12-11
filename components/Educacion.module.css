@@ -1,13 +1,15 @@
 .educacion {
-  padding: 1rem 0;
-  max-width: 1200px;
+  padding: 2rem 0;
+  width: 100vw;
   margin: 0 auto;
+  background-color: #080B1C;
 }
 
 .title {
   text-align: center;
   margin-bottom: 2rem;
   font-size: 2rem;
+  color: #f3e3e2;
 }
 
 .timeline {
@@ -25,6 +27,7 @@
   align-items: center;
   position: relative;
   z-index: 1;
+  margin-bottom: 2rem; /* Aumentar el margen inferior */
 }
 
 .item1 {
@@ -60,7 +63,7 @@
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-align: center;
-  width: 100%;
+  width: 80%;
 }
 
 .content h3 {
@@ -148,3 +151,25 @@
   }
 }
 
+@media (max-width: 1024px) {
+  .timeline {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .item {
+    width: 80%;
+    margin-bottom: 3rem; /* Mantener el margen */
+    display: flex;
+    flex-direction: column; /* Asegurarse de que los elementos se apilen */
+    align-items: center; /* Centrar el contenido */
+  }
+
+  .line {
+    display: none; /* Ocultar la línea */
+  }
+
+  .item::after {
+    display: none; /* Asegurarse de que no haya líneas adicionales */
+  }
+}

@@ -6,23 +6,29 @@
   align-items: center;
   text-align: center;
   padding: 2rem;
+  background-color: #1b2e3c;
 }
 
 .title {
   font-size: 3rem;
   margin-bottom: 1rem;
+  color: #f3e3e2;
 }
 
 .description {
   font-size: 1.3rem;
   max-width: 600px;
   line-height: 1.6;
+  color: #f3e3e2;
 }
+
 
 .dynamicText,
 .role {
   display: inline-block;
   min-width: 120px;
+  color: #f3e3e2;
+  font-weight:900;
 }
 
 .cursor {
