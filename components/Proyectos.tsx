@@ -11,7 +11,7 @@ interface Proyecto {
   descripcion: string
   imagen: string[]
   equipo: 'Solo' | 'Equipo'
-  estado: 'En desarrollo' | 'Por corregir' | 'Finalizado'
+  estado: 'Por corregir' | 'En desarrollo' | 'Finalizado'
   repoUrl: string
   siteUrl: string
 }
@@ -19,33 +19,53 @@ interface Proyecto {
 const proyectos: Proyecto[] = [
   {
     id: 1,
-    titulo: 'Proyecto 1',
-    descripcion: 'Descripción detallada del Proyecto 1',
+    titulo: 'MindHub HomeBanking App',
+    descripcion: 'Web perteneciente a Banco digital con funcionalidades de transferencias, consultas de saldos, visualizacion de tarjetas y prestamos. Ademas de poder solicitar nuevos/as tarjetas y prestamos.',
     imagen: ['/placeholder.svg?height=300&width=300', '/placeholder.svg?height=300&width=300'],
     equipo: 'Solo',
     estado: 'Finalizado',
-    repoUrl: 'https://github.com/usuario/proyecto1',
+    repoUrl: 'https://github.com/russokun/homeBanking',
     siteUrl: 'https://proyecto1.com'
   },
   {
     id: 2,
-    titulo: 'Proyecto 2',
-    descripcion: 'Descripción detallada del Proyecto 2',
+    titulo: 'SST Games',
+    descripcion: 'Landing Web de Creadores de juegos de alto impacto para minimizar riesgos psico-sociales para aplicar en cortos espacios de tiempo.',
     imagen: ['/placeholder.svg?height=300&width=300', '/placeholder.svg?height=300&width=300'],
-    equipo: 'Equipo',
+    equipo: 'Solo',
     estado: 'En desarrollo',
-    repoUrl: 'https://github.com/usuario/proyecto2',
-    siteUrl: 'https://proyecto2.com'
+    repoUrl: 'https://github.com/russokun/SSTGamesMVP',
+    siteUrl: 'https://russokun.github.io/SSTGamesMVP/'
   },
   {
     id: 3,
-    titulo: 'Proyecto 3',
-    descripcion: 'Descripción detallada del Proyecto 3',
+    titulo: 'BattleShip Game',
+    descripcion: 'Juego Web de batalla naval en tiempo real, con 2 tableros integrados, uno para ver tus barcos y el otro para los tiros en el tablero enemigo. Cuenta con un sistema de autenticación y base de datos en tiempo real.',
     imagen: ['/placeholder.svg?height=300&width=300', '/placeholder.svg?height=300&width=300'],
-    equipo: 'Solo',
-    estado: 'Por corregir',
+    equipo: 'Equipo',
+    estado: 'Finalizado',
     repoUrl: 'https://github.com/usuario/proyecto3',
     siteUrl: 'https://proyecto3.com'
+  },
+  {
+    id: 4,
+    titulo: 'Stride Gear',
+    descripcion: 'Web para E-commerce de zapatillas y ropa deportiva de alta calidad, con un diseño minimalista y moderno. Cuenta con un carrito de compras y un panel de administración para gestionar productos y pedidos.',
+    imagen: ['/placeholder.svg?height=300&width=300', '/placeholder.svg?height=300&width=300'],
+    equipo: 'Equipo',
+    estado: 'Por corregir',
+    repoUrl: 'https://github.com/usuario/proyecto4',
+    siteUrl: 'https://proyecto4.com'
+  },
+  {
+    id: 5,
+    titulo: 'Farmacias Chile',
+    descripcion: 'Web para Analisis y Demostracion de Ciencia de Datos a modo de Solemne, enfocado a la existencia demografica, segun API publica/goburnamental sobre; Farmacias en Chile.',
+    imagen: ['/placeholder.svg?height=300&width=300', '/placeholder.svg?height=300&width=300'],
+    equipo: 'Solo',
+    estado: 'Finalizado',
+    repoUrl: 'https://github.com/russokun/solemne3',
+    siteUrl: 'https://solemne3-bros.streamlit.app/'
   }
 ]
 

@@ -2,14 +2,14 @@
   padding: 2rem 0;
   width: 100vw;
   margin: 0 auto;
-  background-color: #080B1C;
+  background-color: #f5eceb;
 }
 
 .title {
   text-align: center;
   margin-bottom: 2rem;
   font-size: 2rem;
-  color: #f3e3e2;
+  color: black;
 }
 
 .timeline {
@@ -48,13 +48,14 @@
 .icon {
   width: 60px;
   height: 60px;
-  background: var(--accent);
+  background: #450601;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
   margin-bottom: 1rem;
+  
 }
 
 .content {
@@ -69,7 +70,7 @@
 .content h3 {
   margin: 0 0 0.5rem;
   font-size: 1.2rem;
-  color: var(--accent);
+  color: #450601;
 }
 
 .content h4 {
@@ -89,7 +90,7 @@
   right: -50%;
   width: 100%;
   height: 2px;
-  background: var(--accent);
+  background: #450601;
 }
 
 @media (max-width: 1024px) {

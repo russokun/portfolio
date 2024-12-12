@@ -3,16 +3,18 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color:#f5eceb ;
 }
 
 .title {
   text-align: center;
   margin-bottom: 2rem;
   font-size: 2rem;
+  color: black;
 }
 
 .contactButton {
-  background-color: var(--accent);
+  background-color: #450601;
   color: white;
   border: none;
   padding: 0.5rem 1rem;
@@ -48,7 +50,7 @@
 }
 
 .form button {
-  background-color: var(--accent);
+  background-color: #450601;
   color: white;
   border: none;
   padding: 0.5rem 1rem;
@@ -63,8 +65,8 @@
 
 .socialLinks {
   display: flex;
-  gap: 1rem;
-  margin-top: 2rem;
+  gap: 1.5rem;
+  margin-top: 1rem;
 }
 
 .socialLinks a {
@@ -73,7 +75,7 @@
 }
 
 .socialLinks a:hover {
-  color: var(--accent);
+  color: #450601;
 }
 
 .footer {

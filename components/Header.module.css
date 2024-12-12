@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   right: 0;
-  background: rgba(255, 255, 255, 0.8);
+  background: #fae7ee;
   backdrop-filter: blur(10px);
   z-index: 1000;
 }
@@ -28,11 +28,11 @@
 }
 
 .navItem:hover {
-  color: var(--accent);
+  color: #450601;
 }
 
 .active {
-  color: var(--accent);
+  color: #450601;
 }
 
 .underline {
@@ -41,7 +41,7 @@
   left: 0;
   right: 0;
   height: 2px;
-  background: var(--accent);
+  background: #450601;
 }
 
 @media (max-width: 768px) {

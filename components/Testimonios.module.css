@@ -1,12 +1,13 @@
 .testimonios {
   padding: 5rem 0;
-  background: #f8f8f8;
+  background: #1b2e3c;
 }
 
 .title {
   text-align: center;
   margin-bottom: 2rem;
   font-size: 2rem;
+  color: #f3e3e2;
 }
 
 .testimonioContainer {
@@ -16,6 +17,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #f3e3e2;
 }
 
 .testimonio {
@@ -24,7 +26,7 @@
 
 .texto {
   font-style: italic;
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
 }
 
 .nombre {

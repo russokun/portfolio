@@ -9,21 +9,21 @@ const educacion = [
     titulo: 'Ingeniería Civil Electrónica',
     institucion: 'Universidad Técnica Federico Santa María',
     periodo: '2023 - Presente',
-    descripcion: 'Estudiante de Segundo Año, con intereses en automatización, Software y Hardware. Emprendedor en la creacion de soluciones,  mediante el Desarrollo de Software.',
+    descripcion: 'Estudiante de Casa Central, con intereses en automatización, Software y Hardware. Emprendedor en la creación de soluciones, mediante el Desarrollo de Software.',
     icon: GraduationCap
   },
   {
     titulo: 'Bootcamp Desarrollo Web Full-Stack Java',
     institucion: 'MindHub L.A',
     periodo: '2023 - 2024',
-    descripcion: 'Formación intensiva de 5 meses en tecnologías web modernas, incluyendo JavaScript, React, Java, SpringBoot y bases de datos como PostgresSQL.',
+    descripcion: 'Formación intensiva de +700 hrs en tecnologías web modernas. Incluyendo: JavaScript, React, Java, SpringBoot y bases de datos como PostgresSQL.',
     icon: Code
   },
   {
     titulo: 'Educación Media',
     institucion: 'Liceo Bicentenario Amanda Labarca',
     periodo: '2015 - 2022',
-    descripcion: 'Graduado con buenas calificaciones. Reconocido como: "El Mejor Compañero". Ex-Presidente de Curso, ademas de Lider Neto al ser capitan del equipo de basquetbol.', 
+    descripcion: 'Graduado con buenas calificaciones. Reconocido como "El Mejor Compañero". Lider Neto, Ex-Presidente de Curso, Y Ex-Capitan del equipo de Baloncesto de la institución.', 
     icon: School
   }
 ]
