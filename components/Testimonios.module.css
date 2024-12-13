@@ -5,9 +5,13 @@
 
 .title {
   text-align: center;
+  justify-content: center;
   margin-bottom: 2rem;
   font-size: 2rem;
-  color: #f3e3e2;
+  color: aliceblue;
+  font-size:40px; font-weight:700;  
+  text-transform:uppercase; width:100%;  
+  
 }
 
 .testimonioContainer {

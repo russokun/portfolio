@@ -3,12 +3,35 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Send, Github, Linkedin, Facebook, Instagram } from 'lucide-react'
+import emailjs from 'emailjs-com'
 import styles from './Contacto.module.css'
 
 export default function Contacto() {
   const [isFormOpen, setIsFormOpen] = useState(false)
+  const [formData, setFormData] = useState({ name: '', email: '', message: '' })
 
   const toggleForm = () => setIsFormOpen(!isFormOpen)
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value })
+  }
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault()
+
+    emailjs.send(
+      'service_secpyzb', // Reemplaza con tu Service ID
+      'template_h0pfpsi', // Reemplaza con tu Template ID
+      formData,
+      'Rjjra0Yxp6lFOdV7D' // Reemplaza con tu User ID
+    ).then((result) => {
+      console.log(result.text)
+      alert('Correo enviado exitosamente')
+    }, (error) => {
+      console.log(error.text)
+      alert('Error al enviar el correo')
+    })
+  }
 
   return (
     <section id="contacto" className={styles.contacto}>
@@ -27,10 +50,30 @@ export default function Contacto() {
         transition={{ duration: 0.3 }}
         className={styles.formContainer}
       >
-        <form className={styles.form}>
-          <input type="text" placeholder="Nombre" required />
-          <input type="email" placeholder="Email" required />
-          <textarea placeholder="Mensaje" required></textarea>
+        <form className={styles.form} onSubmit={handleSubmit}>
+          <input
+            type="text"
+            name="name"
+            placeholder="Nombre"
+            value={formData.name}
+            onChange={handleChange}
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Email"
+            value={formData.email}
+            onChange={handleChange}
+            required
+          />
+          <textarea
+            name="message"
+            placeholder="Mensaje"
+            value={formData.message}
+            onChange={handleChange}
+            required
+          ></textarea>
           <motion.button
             type="submit"
             whileHover={{ scale: 1.05 }}
@@ -63,4 +106,3 @@ export default function Contacto() {
     </section>
   )
 }
-

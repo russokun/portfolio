@@ -7,18 +7,33 @@ import styles from './Testimonios.module.css'
 const testimonios = [
   {
     id: 1,
-    nombre: 'Cliente 1',
-    texto: 'Excelente trabajo, superó mis expectativas.',
+    nombre: 'Joaquin Neulist',
+    rol: 'Desarrollador .NET en QServices',
+    texto: '"Buen compañero de equipo, dedicado a sus tareas, buen manejo de herramientas y tecnologías."',
   },
   {
     id: 2,
-    nombre: 'Cliente 2',
-    texto: 'Muy profesional y creativo. Altamente recomendado.',
+    nombre: 'Edmundo Ruveda',
+    rol: 'Desarrollador de Software en Fundasoft',
+    texto: '"Persona proactiva, con una gran personalidad y capaz de transmitir su pasión y su alta moral a sus compañeros, siempre dispuesto a dar ayuda a quien la necesite."',
   },{
     id: 3,
-    nombre: 'Cliente 3',
-    texto: 'Un placer trabajar juntos. Resultados excepcionales.',
+    nombre: 'Mayco Dominguez',
+    rol: 'Desarrollador Full Stack Java',
+    texto: '"Agustin es un gran colaborador, compañero y muy apasionado por el desarrollo. Muy simpático y siempre dispuesto a mejorar en lo que es el ámbito IT."',
   },
+  {
+    id: 4,
+    nombre: 'Flor Ayala',
+    rol: 'CEO en Stride Gear',
+    texto: '"El Desarrollo de la Web de Stride Gear elevó nuestra experiencia: calidad, tiempo y atención impecables."',
+  },
+  {
+    id: 5,
+    nombre: 'Ana Maria Campbell', 
+    rol: 'Co-fundadora de SSTGames',
+    texto: '"A pesar de estar en fase de Desarrollo, La interfaz interactiva tiene potencial para transformar nuestra marca lúdica por completo."',
+  }
 ]
 
 export default function Testimonios() {
@@ -33,7 +48,7 @@ export default function Testimonios() {
 
   return (
     <section id="testimonios" className={styles.testimonios}>
-      <h2 className={styles.title}>Lo que dicen mis clientes</h2>
+      <h2 className={styles.title}>Testimonios de Clientes/Colegas</h2>
       <div className={styles.testimonioContainer}>
         <AnimatePresence mode="wait">
           <motion.div
@@ -46,10 +61,11 @@ export default function Testimonios() {
           >
             <p className={styles.texto}>{testimonios[activeTestimonio].texto}</p>
             <p className={styles.nombre}>- {testimonios[activeTestimonio].nombre}</p>
+            <p className={styles.rol}><em>{testimonios[activeTestimonio].rol}</em></p>
+            
           </motion.div>
         </AnimatePresence>
       </div>
     </section>
   )
 }
-

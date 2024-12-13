@@ -1,15 +1,43 @@
 .proyectos {
-  padding: 6rem 1rem 4rem;
+  padding: 3rem 1rem 4rem;
   width: 100vw;
   margin: 0 auto;
   background-color: #1b2e3c;
+  flex: wrap;
 }
 
 .title {
   text-align: center;
+  justify-content: center;
   margin-bottom: 2rem;
   font-size: 2rem;
   color: aliceblue;
+  font-size:40px; font-weight:700;  
+  text-transform:uppercase; width:100%;  
+}
+
+
+
+.tecnologias {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.tecnologia {
+  background-color: #2a3b4c;
+  color: white;
+  padding: 0.45rem 1.1rem;
+  border-radius: 5px;
+  margin-bottom: 7px;
+  font-size: 0.875rem;
+  transition: background-color 0.3s ease;
+}
+
+.tecnologia:hover {
+  background-color: #3b4c5d;
 }
 
 .grid {
@@ -32,7 +60,7 @@
 
 .imagen {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
   transition: transform 0.3s ease;
 }

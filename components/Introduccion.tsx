@@ -72,7 +72,7 @@ export default function Introduccion() {
         transition={{ duration: 0.5, delay: 0.4 }}
         className={styles.description}
       >
-        Apasionado por el desarrollo De Software y la Ingeniería.
+        Apasionado por la Tecnologia, el desarrollo De Software y la Ingeniería.
       </motion.p>
     </section>
   )
