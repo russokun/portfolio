@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { ChevronLeft, ChevronRight, Github, ExternalLink, User, Users } from 'lucide-react'
+import {  Github, ExternalLink, User, Users } from 'lucide-react'
 //import { FaJava, FaJsSquare, FaReact, FaHtml5, FaCss3Alt, FaPython } from 'react-icons/fa';
 //import { SiSpringboot, SiTypescript, SiVite, SiNextdotjs } from 'react-icons/si';
 import styles from './Proyectos.module.css'
@@ -88,18 +88,6 @@ export default function Proyectos() {
 
   const closeProject = () => {
     setSelectedProject(null)
-  }
-
-  const nextImage = () => {
-    if (selectedProject) {
-      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % selectedProject.imagen.length)
-    }
-  }
-
-  const prevImage = () => {
-    if (selectedProject) {
-      setCurrentImageIndex((prevIndex) => (prevIndex - 1 + selectedProject.imagen.length) % selectedProject.imagen.length)
-    }
   }
 
   const getStatusColor = (estado: Proyecto['estado']) => {
