@@ -3,8 +3,8 @@
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { ChevronLeft, ChevronRight, Github, ExternalLink, User, Users } from 'lucide-react'
-import { FaJava, FaJsSquare, FaReact, FaHtml5, FaCss3Alt, FaPython } from 'react-icons/fa';
-import { SiSpringboot, SiTypescript, SiVite, SiNextdotjs } from 'react-icons/si';
+//import { FaJava, FaJsSquare, FaReact, FaHtml5, FaCss3Alt, FaPython } from 'react-icons/fa';
+//import { SiSpringboot, SiTypescript, SiVite, SiNextdotjs } from 'react-icons/si';
 import styles from './Proyectos.module.css'
 
 interface Proyecto {
