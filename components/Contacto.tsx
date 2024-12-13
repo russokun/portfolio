@@ -101,7 +101,7 @@ export default function Contacto() {
         <p>
           Hecho con <span className={styles.heart}>❤️</span> por Agustin Russo
         </p>
-        <p>Sitio Hecho con Next.js + React</p>
+        <p>Sitio Hecho con Next.js + React + TypeScript</p>
       </footer>
     </section>
   )
