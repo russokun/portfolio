@@ -48,7 +48,7 @@ export default function Testimonios() {
 
   return (
     <section id="testimonios" className={styles.testimonios}>
-      <h2 className={styles.title}>Testimonios de Clientes/Colegas</h2>
+      <h2 className={styles.title}>Testimonios</h2>
       <div className={styles.testimonioContainer}>
         <AnimatePresence mode="wait">
           <motion.div
