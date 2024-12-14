@@ -1,0 +1,6 @@
+[build]
+  command = "next build" # Comando para construir tu proyecto
+  publish = ".next" # Directorio donde Next.js genera la salida para publicación
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs" # Plugin para manejar Next.js en Netlify
