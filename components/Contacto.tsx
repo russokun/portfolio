@@ -84,16 +84,16 @@ export default function Contacto() {
         </form>
       </motion.div>
       <div className={styles.socialLinks}>
-        <motion.a href="#" whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }}>
+        <motion.a href="https://github.com/russokun" whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }}>
           <Github size={24} />
         </motion.a>
-        <motion.a href="#" whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }}>
+        <motion.a href="https://www.linkedin.com/in/agustinrussoo/" whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }}>
           <Linkedin size={24} />
         </motion.a>
-        <motion.a href="#" whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }}>
+        <motion.a href="https://web.facebook.com/profile.php?id=100004695915752" whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }}>
           <Facebook size={24} />
         </motion.a>
-        <motion.a href="#" whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }}>
+        <motion.a href="https://www.instagram.com/russ0dev/?hl=es" whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }}>
           <Instagram size={24} />
         </motion.a>
       </div>
