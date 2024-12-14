@@ -23,7 +23,7 @@ const educacion = [
     titulo: 'Educación Media',
     institucion: 'Liceo Bicentenario Amanda Labarca',
     periodo: '2015 - 2022',
-    descripcion: 'Graduado con buenas calificaciones. Reconocido como "El Mejor Compañero". Lider Neto, Ex-Presidente de Curso, Y Ex-Capitan del equipo de Baloncesto de la institución.', 
+    descripcion: 'Graduado con buenas calificaciones. Reconocido como "El Mejor Compañero" o "Alumno Perseverante". Cultivo de Habilidades Blandas Contantes de forma intra/extra Curricular.', 
     icon: School
   }
 ]

@@ -18,6 +18,7 @@
 .description {
   font-size: 1.3rem;
   max-width: 600px;
+  margin-top: 1rem;
   line-height: 1.6;
   color: #f3e3e2;
 }
@@ -29,6 +30,10 @@
   min-width: 120px;
   color: #f3e3e2;
   font-weight:900;
+}
+.role{
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
 }
 
 .cursor {

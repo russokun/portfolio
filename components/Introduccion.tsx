@@ -24,7 +24,7 @@ export default function Introduccion() {
 
       if (shouldBeDeleting) {
         setDisplayedText(fullText.substring(0, displayedText.length - 1))
-        setTypingSpeed(30)
+        setTypingSpeed(100)
       } else if (shouldStartDeleting) {
         setIsDeleting(true)
         setTypingSpeed(100)

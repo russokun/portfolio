@@ -43,7 +43,14 @@
   height: 2px;
   background: #450601;
 }
-
+.menuButton {
+  display: none; /* Ocultar el botón por defecto */
+  font-size: 2rem;
+  
+  
+  cursor: pointer;
+  color: #450601;
+}
 @media (max-width: 768px) {
   .navList {
     flex-wrap: wrap;
@@ -54,32 +61,27 @@
     font-size: 0.9rem;
   }
   
-  .menuButton {
-    display: none; /* Ocultar el botón por defecto */
-    font-size: 2rem;
-    background: none;
-    border: none;
-    cursor: pointer;
-    color: var(--text);
-  }
+  
   
   /* Mostrar el botón en pantallas pequeñas */
   @media (max-width: 624px) {
     .menuButton {
       display: block;
+      
     }
   
     .navList {
       display: none; /* Ocultar el menú por defecto */
       flex-direction: column; /* Cambiar a columna */
       position: absolute; /* Posicionar el menú */
-      top: 60px; /* Ajustar según la altura del header */
+      top: 48px; /* Ajustar según la altura del header */
       left: 0;
       right: 0;
       background: rgba(255, 255, 255, 0.9); /* Fondo del menú */
       z-index: 999; /* Asegurarse de que esté por encima */
+      
     }
-  
+    
     .navList.open {
       display: flex; /* Mostrar el menú cuando está abierto */
     }

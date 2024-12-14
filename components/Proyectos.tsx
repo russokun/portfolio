@@ -154,10 +154,12 @@ export default function Proyectos() {
             >
               <h3 className={styles.modalTitle}>{selectedProject.titulo}</h3>
               <div className={styles.projectInfo}>
-                <span className={`${styles.status} ${getStatusColor(selectedProject.estado)}`}>
-                  {selectedProject.estado}
-                </span>
-                {selectedProject.equipo === 'Solo' ? <User size={18} /> : <Users size={18} />}
+                <div className={styles.divardo}>
+                  <span className={`${styles.status} ${getStatusColor(selectedProject.estado)}`}>
+                    {selectedProject.estado}
+                  </span>
+                  {selectedProject.equipo === 'Solo' ? <User size={20} /> : <Users size={20} />}
+                </div>
                 <div className={styles.tecnologias}>
                   {selectedProject.tecnologias.map((tecnologia, index) => (
                     <span key={index} className={styles.tecnologia}>{tecnologia}</span>
