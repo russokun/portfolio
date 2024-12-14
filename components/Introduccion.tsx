@@ -1,7 +1,8 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
+import { motion } from 'framer-motion'
+// import { AnimatePresence } from 'framer-motion'; // Elimina esta línea si no se usa en el archivo
 import styles from './Introduccion.module.css'
 
 const roles = ['Desarrollador', 'Estudiante', 'Emprendedor']
@@ -10,7 +11,7 @@ export default function Introduccion() {
   const [roleIndex, setRoleIndex] = useState(0)
   const [displayedText, setDisplayedText] = useState('')
   const [isDeleting, setIsDeleting] = useState(false)
-  const [loopNum, setLoopNum] = useState(0)
+  //const [loopNum, setLoopNum] = useState(0)
   const [typingSpeed, setTypingSpeed] = useState(150)
 
   useEffect(() => {

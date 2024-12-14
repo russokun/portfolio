@@ -1,7 +1,8 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Code, Server, Database, Cpu, Zap, BookOpen, PuzzleIcon as PuzzlePiece, Users, MessageSquare, Lightbulb } from 'lucide-react'
+// import { Zap } from 'lucide-react'; // Elimina esta línea si no se usa en el archivo
+import { Code, Server, Database, Cpu, BookOpen, PuzzleIcon as PuzzlePiece, Users, MessageSquare, Lightbulb } from 'lucide-react'
 import styles from './Habilidades.module.css'
 
 const habilidades = [
