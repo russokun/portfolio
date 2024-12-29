@@ -30,8 +30,8 @@ const testimonios = [
   },
   {
     id: 5,
-    nombre: 'Ana Maria Campbell', 
-    rol: 'Co-fundadora de SSTGames',
+    nombre: 'Alfonso Letelier', 
+    rol: 'Co-fundador de SSTGames',
     texto: '"A pesar de estar en fase de Desarrollo, La interfaz interactiva tiene potencial para transformar nuestra marca lúdica por completo."',
   }
 ]
