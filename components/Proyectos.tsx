@@ -20,26 +20,37 @@ interface Proyecto {
 }
 
 const proyectos: Proyecto[] = [
+  // {
+  //   id: 1,
+  //   titulo: 'MindHub HomeBanking App',
+  //   descripcion: 'Web App con funcionalidades Bancarias. Cuenta con un sistema de autenticación y base de datos en tiempo real.',
+  //   imagen: ['https://st4.depositphotos.com/20523700/25947/i/450/depositphotos_259477098-stock-photo-illustration-bank-icon.jpg', '/placeholder.svg?height=300&width=300'],
+  //   equipo: 'Solo',
+  //   estado: 'Por corregir',
+  //   repoUrl: 'https://github.com/russokun/homeBanking',
+  //   siteUrl: 'https://homebankingg.onrender.com/',
+  //   tecnologias: ['React', 'Java', 'PostgreSQL', 'Spring Boot']
+  // },
   {
-    id: 1,
-    titulo: 'MindHub HomeBanking App',
-    descripcion: 'Web App con funcionalidades Bancarias. Cuenta con un sistema de autenticación y base de datos en tiempo real.',
-    imagen: ['https://st4.depositphotos.com/20523700/25947/i/450/depositphotos_259477098-stock-photo-illustration-bank-icon.jpg', '/placeholder.svg?height=300&width=300'],
-    equipo: 'Solo',
-    estado: 'Por corregir',
-    repoUrl: 'https://github.com/russokun/homeBanking',
-    siteUrl: 'https://homebankingg.onrender.com/',
-    tecnologias: ['React', 'Java', 'PostgreSQL', 'Spring Boot']
+    id: 6,
+    titulo: 'DentaMeet',
+    descripcion: 'Plataforma digital que facilita el acceso a tratamientos dentales de calidad a bajo costo, mientras apoya la formación clínica de futuros odontólogos.',
+    imagen: ['/img/dentameet.png', '/placeholder.svg?height=300&width=300'],
+    equipo: 'Equipo',
+    estado: 'En desarrollo',
+    repoUrl: 'https://github.com/russokun/dentameet',
+    siteUrl: 'https://www.dentameet.net/',
+    tecnologias: ['React', 'JavaScript', 'TailwindCSS', 'SupaBase']
   },
   {
     id: 2,
     titulo: 'SST Games',
     descripcion: 'Landing Web de Creadores de juegos de alto impacto para minimizar riesgos psico-sociales para aplicar en cortos espacios de tiempo.',
-    imagen: ['/img/14.png', '/img/18.png'],
+    imagen: ['/img/14.png'],
     equipo: 'Solo',
-    estado: 'En desarrollo',
+    estado: 'Finalizado',
     repoUrl: 'https://github.com/russokun/SSTGamesMVP',
-    siteUrl: 'https://russokun.github.io/SSTGamesMVP/',
+    siteUrl: 'https://sstgames.netlify.app/',
     tecnologias: ['React', 'TailwindCSS', 'JavaScript']
   },
   {
@@ -51,7 +62,7 @@ const proyectos: Proyecto[] = [
     estado: 'Finalizado',
     repoUrl: 'https://github.com/usuario/proyecto3',
     siteUrl: 'https://battleshipgameproyectfront-nzpp.onrender.com/',
-    tecnologias: ['React', 'Java', 'PostgreSQL', 'Spring Boot']
+    tecnologias: ['React', 'Java', 'PostgreSQL', 'Spring Boot', 'JavaScript']
   },
   {
     id: 4,

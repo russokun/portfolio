@@ -17,7 +17,7 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(5, 1fr);
   gap: 2rem;
   padding: 0 1rem;
 }
@@ -43,7 +43,7 @@
   color: #450601;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .grid {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }

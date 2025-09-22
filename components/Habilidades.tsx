@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion'
 // import { Zap } from 'lucide-react'; // Elimina esta línea si no se usa en el archivo
 import { Code, Server, Database, Cpu, BookOpen, PuzzleIcon as PuzzlePiece, Users, MessageSquare, Lightbulb } from 'lucide-react'
+import { Workflow } from 'lucide-react'
 import styles from './Habilidades.module.css'
 
 const habilidades = [
@@ -15,6 +16,7 @@ const habilidades = [
   { nombre: 'Comunicación', icono: MessageSquare },
   { nombre: 'Aprendizaje Continuo', icono: BookOpen },
   { nombre: 'Pensamiento Crítico', icono: Lightbulb },
+  { nombre: 'Automatizaciones', icono: Workflow },
 ]
 
 export default function Habilidades() {
@@ -31,7 +33,9 @@ export default function Habilidades() {
             transition={{ duration: 0.5, delay: index * 0.1 }}
             whileHover={{ scale: 1.05 }}
           >
-            <habilidad.icono className={styles.icon} />
+            {habilidad.icono && (
+              <habilidad.icono className={styles.icon} />
+            )}
             <h3>{habilidad.nombre}</h3>
           </motion.div>
         ))}
